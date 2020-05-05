@@ -1,0 +1,139 @@
+.widget {
+    width: 75%;
+    font-family: sans-serif;
+}
+
+.sidebar .widget {
+    position: relative;
+    display: block;
+    margin-bottom: 3rem;
+
+}
+
+.heading-container {
+    border-bottom: 3px solid #000000;
+    margin-bottom: 10px;
+}
+
+.widget-title {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 7px 12px 4px;
+    font-size: 12px;
+
+}
+
+.widget .follow {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.widget .follow .facebook {
+    padding-top: 5px;
+}
+
+.widget .follow .left-side .subscribers:hover {
+    color: turquoise;
+}
+
+.widget .follow .right-side .like:hover {
+    color: turquoise;
+}
+
+.widget .follow .right-side .like {
+    font-size: 10px;
+}
+
+.widget .follow .left-side i.fab.fa-facebook {
+    color: darkblue;
+}
+
+.widget .follow .left-side i.fab.fa-twitter {
+    color: rgb(33, 189, 241);
+}
+
+.widget .follow .left-side i.fab.fa-youtube {
+    color: rgb(216, 14, 14);
+    height: 20px;
+}
+
+.widget .follow .left-side .subscribers {
+    font-size: 10px;
+}
+
+
+.ad-image {
+    width: 75%;
+    padding-bottom: 20px;
+}
+
+.ad-image .given-image img {
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+}
+
+.ad-image .advertisement {
+    color: gray;
+    text-align: center;
+    font-size: 10px;
+}
+
+.modern {
+    width: 75%;
+    font-family: sans-serif;
+}
+
+.modern-container {
+    border-bottom: 3px solid #000000;
+    margin-bottom: 10px;
+}
+
+.modern-title {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 7px 12px 4px;
+    font-size: 12px;
+
+}
+
+.modern .image-container .image-set1 {
+    position: relative;
+}
+
+.modern .image-container .image-set1 .description {
+    position: absolute;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    left: 0;
+    /* margin-bottom: 4px; */
+    padding: 7px 12px 4px;
+    font-size: 10px;
+}
+
+.modern .image-container .image-set1 .description:hover {
+    background-color: turquoise;
+}
+
+.modern .image-container .image-set1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.modern .image-container .paragraph .explanation {
+    text-decoration: none;
+    color: rgb(51, 49, 49);
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.modern .image-container .paragraph .explanation:hover {
+    color: turquoise;
+}
